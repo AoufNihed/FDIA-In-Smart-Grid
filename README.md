@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FDIA Detection in Smart Grids Using PMU Data
 
 Developed by **AOUF Nihed**  
@@ -142,3 +143,6 @@ Always open to research collaboration, PFE internships, and CPS security challen
 
 This project is released under the MIT License.  
 Data is for academic purposes only.
+=======
+
+>>>>>>> 86382c6e53726f159c35a20a974515bc693ce79c
