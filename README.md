@@ -10,7 +10,7 @@ Inspired by KAUST & IEEE research on cybersecurity in energy systems
 
 This project explores the detection of **False Data Injection Attacks (FDIA)** in power systems by leveraging **Phasor Measurement Unit (PMU)** data, unsupervised learning techniques, and digital twin logic mimicking the decision-making of digital relays.
 
-We use real PMU measurement data and simulate sophisticated attacks that mimic faults while remaining stealthy to traditional protection systems.
+I use real PMU measurement data and simulate sophisticated attacks that mimic faults while remaining stealthy to traditional protection systems.
 
 ---
 
@@ -56,7 +56,7 @@ smartgrid-fdia-ml/
 
 ### Fault Injection Simulation
 
-We add synthetic FDIA based on known fault logic, e.g.:
+I add synthetic FDIA based on known fault logic, e.g.:
 
 - SLG Fault: `Ia ↑`, `Ib = Ic = 0`
 - LL Fault: `Ia = 0`, `Ib = -Ic`, `Vb = Vc`
@@ -67,13 +67,13 @@ We add synthetic FDIA based on known fault logic, e.g.:
 
 ## Model Architecture
 
-We use an **Autoencoder Neural Network** to reconstruct normal PMU signal behavior. Samples with high reconstruction error are flagged as anomalous (FDIA or Fault).
+I use an **Autoencoder Neural Network** to reconstruct normal PMU signal behavior. Samples with high reconstruction error are flagged as anomalous (FDIA or Fault).
 
 ---
 
 ## Digital Relay Twin Logic
 
-We simulate the internal logic of a simple digital relay by:
+I simulate the internal logic of a simple digital relay by:
 
 - Thresholds on `Ia`, `Va_angle`, and `frequency`
 - Delay logic and tripping simulation
