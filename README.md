@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FDIA Detection in Smart Grids Using PMU Data
 
 Developed by **AOUF Nihed**  
@@ -70,10 +69,6 @@ We add synthetic FDIA based on known fault logic, e.g.:
 
 We use an **Autoencoder Neural Network** to reconstruct normal PMU signal behavior. Samples with high reconstruction error are flagged as anomalous (FDIA or Fault).
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Autoencoder_structure.png" alt="Autoencoder Diagram" width="500"/>
-</p>
-
 ---
 
 ## Digital Relay Twin Logic
@@ -83,16 +78,11 @@ We simulate the internal logic of a simple digital relay by:
 - Thresholds on `Ia`, `Va_angle`, and `frequency`
 - Delay logic and tripping simulation
 - Compare decisions on clean, fault, and FDIA data
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Relay_logic_diagram.svg/1200px-Relay_logic_diagram.svg.png" alt="Relay Logic Diagram" width="400"/>
-</p>
-
 ---
 
 ## Dashboard (Planned)
 
-We plan to use **Streamlit** or **Dash** to create a simple web interface:
+I plan to use **Streamlit** or **Dash** to create a simple web interface:
 
 - Display raw vs. FDIA-injected PMU data
 - Show detection results and thresholds
@@ -130,7 +120,7 @@ The project was inspired by recent works in power system cybersecurity:
 
 ---
 
-## About the Author
+## About Me 
 
 AOUF Nihed  
 Student in Electrical & Networks Engineering at ESGEE  
@@ -139,10 +129,3 @@ Always open to research collaboration, PFE internships, and CPS security challen
 
 ---
 
-## License
-
-This project is released under the MIT License.  
-Data is for academic purposes only.
-=======
-
->>>>>>> 86382c6e53726f159c35a20a974515bc693ce79c
